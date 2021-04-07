@@ -2,7 +2,6 @@
 title: Time to add your own content
 description: Remove all of the .md-files in the /content folder and go at it!
 ---
-
 ## Sit liquentibus sinu verbis et spatiarer laedar
 
 Lorem markdownum viros voce nostri tumulandus contegat tua **prior** umbra
@@ -16,6 +15,12 @@ dat: voce quater attritas. Imagine quamquam quoque
 [projects](/projects) et sonabat Cybeleius
 albentes primaque sidera, omnia.
 
+
+
+
+
+![Mountain](https://d33wubrfki0l68.cloudfront.net/70a143fdf134aacde3740662a2a47a2a1ee0d216/276c9/assets/images/shiprock.jpg "Mountain")
+
 ## Apud sunt
 
 Addidit nunc: finita tua celatos vacuos Morpheus tigridis videre. Et an in ne
@@ -24,7 +29,7 @@ fuit ulla Thestorides. Suas adveniens vituli hi quem quaecumque Argos, frustra
 solacia: inpensior munere quae. Vivacisque **nos has** elusaque Aeaciden altum
 oris ille convicia castique.
 
-```js{1,4}[posts.vue]
+```js{1,4}\[posts.vue]
 formatDate(dateString) {
   const date = new Date(dateString)
   return date.toLocaleDateString(process.env.lang) || ''
